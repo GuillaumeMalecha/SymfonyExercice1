@@ -18,7 +18,7 @@ class SecondController
         $response->setContent(json_encode([
             'prenom' => 'Guillaume',
             'nom' => 'Malecha',
-            'adresse' => 'Rue Henri Gerard 74 - 4680 Oupeye'
+            'adresse' => 'Rue Henri Gerard 4680 Oupeye'
         ]));
 
         $response->headers->set('Content-Type', 'application/json');
